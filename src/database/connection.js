@@ -1,11 +1,12 @@
-var mysql = require('mysql');
+var mysql = require('mysql2');
 
 var config = {
   connectionLimit: 10,
   host: process.env.DB_HOST,
   database: process.env.DB_DATABASE,
   user: process.env.DB_USER,
-  password: process.env.DB_PASS || ''
+  password: process.env.DB_PASS || '',
+  port: process.env.DB_PORT
 }
 
 var pool = mysql.createPool(config);
