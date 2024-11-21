@@ -1,7 +1,7 @@
 {
   "name": "studyapp",
   "version": "1.0.0",
-  "description": "this is a open source free poker game to play with friends",
+  "description": "este é um aplicativo para estudos",
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
